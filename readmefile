@@ -1,0 +1,206 @@
+# NumPy Data Analyzer
+
+## 📌 Project Overview
+
+**NumPy Data Analyzer** is a menu-driven Python application built using the **NumPy** library.
+
+This project demonstrates how NumPy can be used for:
+
+* Array creation
+* 1D, 2D, and 3D arrays
+* Indexing and slicing
+* Mathematical operations
+* Combining and splitting arrays
+* Searching and sorting
+* Filtering data
+* Aggregate calculations
+* Statistical analysis
+
+The project is designed for beginners to understand practical NumPy operations using a simple command-line interface.
+
+---
+
+## 🛠️ Technologies Used
+
+* **Python**
+* **NumPy**
+
+---
+
+## 📂 Project Structure
+
+```text
+NumPy-Data-Analyzer/
+│
+├── main.py
+└── README.md
+```
+
+---
+
+## ⚙️ Installation
+
+### 1. Check Python Installation
+
+Open Command Prompt or Terminal and run:
+
+```bash
+python --version
+```
+
+### 2. Install NumPy
+
+```bash
+pip install numpy
+```
+
+If `pip` does not work, use:
+
+```bash
+python -m pip install numpy
+```
+
+---
+
+## ▶️ How to Run
+
+Run the Python file:
+
+```bash
+python main.py
+```
+
+The application will display the main menu:
+
+```text
+=============================================
+        NUMPY DATA ANALYZER
+=============================================
+
+--- WELCOME TO NUMPY ANALYZER ---
+
+1. Array Creation
+2. Mathematical Operations
+3. Combine / Split Arrays
+4. Search / Sort / Filter
+5. Aggregate & Statistics
+6. Exit
+```
+
+---
+
+# 🚀 Features
+
+## 1. Array Creation
+
+The application supports three types of NumPy arrays:
+
+### 1D Array
+
+Example:
+
+```text
+Enter the number of elements: 5
+Enter 5 elements separated by space:
+10 20 30 40 50
+```
+
+Output:
+
+```text
+[10 20 30 40 50]
+```
+
+### 2D Array
+
+The user provides rows and columns.
+
+Example:
+
+```text
+Enter number of rows: 2
+Enter number of columns: 3
+Enter 6 elements separated by space:
+10 20 30 40 50 60
+```
+
+Output:
+
+```text
+[[10 20 30]
+ [40 50 60]]
+```
+
+### 3D Array
+
+The user provides:
+
+* Depth
+* Rows
+* Columns
+
+The entered elements are reshaped into a 3D NumPy array.
+
+---
+
+# 2. Indexing & Slicing
+
+Indexing and slicing are available for **2D arrays**.
+
+### Indexing
+
+Example:
+
+```python
+array[1][2]
+```
+
+This accesses the element at row index `1` and column index `2`.
+
+### Slicing
+
+Example:
+
+```python
+array[0:2, 1:3]
+```
+
+This selects a specific range of rows and columns.
+
+---
+
+# 3. Mathematical Operations
+
+The project supports:
+
+### Addition
+
+```python
+array1 + array2
+```
+
+### Subtraction
+
+```python
+array1 - array2
+```
+
+### Multiplication
+
+```python
+array1 * array2
+```
+
+### Division
+
+```python
+array1 / array2
+```
+
+The second array must have the same shape as the original array.
+
+---
+
+# 4. Combine / Split Arrays
+
+## Combine Arrays
